@@ -1,6 +1,6 @@
 # String Repeat
 
-Link para download: <https://andrewhermelino.github.io/StringRepeat/>
+Link para download: <https://andrewhermelino.github.io/string-repeat/>
 
 ## Como usar o programa:
 
