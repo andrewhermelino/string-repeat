@@ -1,0 +1,107 @@
+/* estilo barra de rolagem body */
+body::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.350)  ;  /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 0px;
+}
+/* fim - estilo barra de rolagem body */
+/* estilo barra de rolagem textarea */
+textarea::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+}
+  
+textarea::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+  
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.350)  ;  /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+/* fim - estilo barra de rolagem textarea */
+
+.block {
+    background-color: rgba(0, 0, 0, 0.100);
+    padding: 20px;
+}
+
+body {
+    background-color: #44475a;
+    color: #f8f8f2;
+}
+
+input, textarea {
+    background-color: #282a36 !important;
+    border-color: transparent !important;
+    color: #f8f8f2 !important;
+}
+
+.modal-content {
+    background-color: #44475a;
+}
+.modal-footer {
+    border-top: 1px solid #282a36;
+}
+
+.btn, .form-control {
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: #8be9fd !important;
+    border: 0px !important;
+    color: #44475a !important;
+}
+.btn-primary:hover {
+    background-color: #6bd1e7 !important;
+}
+
+.btn-success {
+    background-color: #50fa7b !important;
+    border: 0px !important;
+    color: #44475a !important;
+}
+.btn-success:hover {
+    background-color: #47d16a !important;
+}
+
+.btn-danger {
+    background-color: #ff5555 !important;
+    border: 0px !important;
+    color: #f8f8f2 !important;
+}
+.btn-danger:hover {
+    background-color: #c74141 !important;
+}
+
+.btn-remove-replace {
+    position: absolute;
+    right: -5px;
+    top: -10px;
+}
+
+.btn-addReplace {
+    color: #6272a4;
+    width: 100%;
+    border: 2px solid #6272a4;
+}
+.btn-addReplace:hover {
+    color: #50fa7b;
+    border-color: #50fa7b;
+}
+.btn-addReplace i.bi.bi-plus-lg {
+    font-size: 20px;
+}
+
+.btn-ok {
+    padding-left: 30px;
+    padding-right: 30px;
+}
