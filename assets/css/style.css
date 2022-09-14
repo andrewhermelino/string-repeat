@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #282a36;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo barra de rolagem body */
+body::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.350)  ;  /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 0px;
+}
+/* fim - estilo barra de rolagem body */
+
+* {
+    color: #f8f8f2;
+}
+
+.main-div {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.main-content {
+    background-color: #44475a;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    width: 600px;
+
+    margin: 100px 0px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ff79c6;
+}
+
+.btn-success {
+    background-color: #50fa7b;
+    border-color: #50fa7b;
+    color: #282a36;
+    box-shadow: none !important;
+}
+.btn-success:hover {
+    background-color: #42d667;
+    border-color: #42d667;
+    color: #282a36;
+}
+.btn-success:focus {
+    background-color: #3bbb5b;
+    border-color: #3bbb5b;
+    color: #282a36;
+}
+.btn-success i.bi-cloud-arrow-down {
+    color: #282a36;
+}
+
+.accordion-item, .accordion-item:not(div.collapsed) {
+    background-color: #44475a;
+    border: 0;
+}
+.accordion-button::after {
+    margin-left: 10px;
+}
+.accordion-button, .accordion-button:not(.collapsed) {
+    padding: 0;
+    display: block;
+    background-color: #44475a;
+    text-align: center;
+    box-shadow: none;
+    color: #6272a4 !important;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.accordion-button i, .accordion-button:not(.collapsed) i {
+    color: #6272a4;
+}
+.accordion-button:hover, .accordion-button:not(.collapsed):hover {
+    color: #ff79c6 !important;
+}
+.accordion-body {
+    padding: 0;
+}
+
+.link-download {
+    color: #8be9fd;
+    text-decoration: none;
+}
+.link-download:hover {
+    color: #72c5d8;
+}
+
+.github-link {
+    text-align: right;
+}
+.github-link a {
+    font-size: 50px;
+}
+.github-link a i {
+    color: rgb(248, 248, 242, 0.4);
+    transition: 0.3s;
+}
+.github-link a i:hover {
+    color: rgb(248, 248, 242, 1);
+}
+
+.logo {
+    margin-top: -80px;
+}
+.logo img {
+    border: 2px solid #ff79c6;
+    background-color: #44475a;
+    padding: 10px;
+    max-width: 120px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
